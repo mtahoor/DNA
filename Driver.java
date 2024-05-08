@@ -177,7 +177,7 @@ public class Driver {
 
         StdOut.print("Enter the new STRs file name: ");
         String allSTRs = StdIn.readLine();
-        studentDNASimulation.readSTRsOfInterest(allSTRs);
+        studentDNASimulation.readAllSTRsOfInterest(allSTRs);
     }
 
     /**
